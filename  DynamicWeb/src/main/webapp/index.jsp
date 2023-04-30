@@ -11,7 +11,6 @@
 	<h1><em> List of books  your books:</em></h1>
 	
 	
-	
 	<%
 	for (String name : DatabaseFacade.getBooks()) {
 		out.print(name + "<br/>");
@@ -25,7 +24,7 @@
 		<button type="submit">Add book</button>
 	</form>
 	
-	<b>If you want, you could delete your book.</b>
+	<b>If you want, you could delete your book :)</b>
 	
 	<form method="post" action="deletebook.jsp">
 		<label for="name">Enter the title of the book you want to delete:</label>
